@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: cadetblue;
+  text-align: center;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 7vmin;
+  padding: 2vmin;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 0.7);
+}
+.img {
+  margin: 8vmin;
+  height: 400px;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.8);
+}
+.msgContainer {
+  height: 22vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hide {
+  display: none;
+}
+#msg {
+  color: rgb(255, 255, 255);
+  font-size: 5vmin;
+  margin: 1.5vmin;
+}
+#newGame {
+  margin: 2vmin;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: darkslategray;
+  color: rgb(236, 230, 223);
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+#newGame:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: rgb(21, 46, 57);
+}
+.box:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.3);
+}
+#reset {
+  margin: 2vmin;
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: darkslategray;
+  color: rgb(236, 230, 223);
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+#reset:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
